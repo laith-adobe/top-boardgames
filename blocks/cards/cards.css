@@ -9,7 +9,8 @@
 
 .cards>ul>li {
   border: 1px solid var(--highlight-background-color);
-  background-color: var(--background-color)
+  background-color: var(--background-color);
+  border-radius: 0.5rem;
 }
 
 .cards .cards-card-body {
@@ -34,4 +35,5 @@ margin-top: 0;
   width: 100%;
   aspect-ratio: 4 / 3;
   object-fit: cover;
+  border-radius: 0.5rem 0.5rem 0 0;
 }

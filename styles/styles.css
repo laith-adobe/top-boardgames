@@ -60,6 +60,9 @@
     --heading-font-size-xs: 22px;
   }
 }
+*{
+  box-sizing: border-box;
+}
 
 body {
   font-size: var(--body-font-size-m);
@@ -157,7 +160,7 @@ a.button:any-link, button {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  border-radius: 30px;
+  border-radius: 0.5rem;
 }
 
 a.button:hover, a.button:focus, button:hover, button:focus  {
