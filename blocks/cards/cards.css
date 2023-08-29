@@ -20,7 +20,7 @@
   line-height: 0;
 }
 
-.cards .cards-card-body > *:first-child {
+.cards .cards-card-body > *  {
   margin-top: 0;
 }
 
