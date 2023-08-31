@@ -29,6 +29,11 @@ margin-top: 0;
 
 .cards .cards-card-body>.button-container {
   margin: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+.cards .cards-card-body>.button-container >* {
+  margin: 0;
 }
 
 .cards>ul>li img {

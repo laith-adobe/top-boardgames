@@ -1,0 +1,19 @@
+.board-game-info{
+    margin-inline: auto;
+    width: 50%;
+}
+
+.board-game-info > div{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 1rem;
+    
+}
+
+.board-game-info > div > div{
+    min-width: 200px; 
+    display: flex;
+    align-items: flex-end;
+    justify-content:center;
+} 
