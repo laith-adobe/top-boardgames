@@ -179,7 +179,9 @@ a.button.secondary, button.secondary {
   color: var(--text-color)
 }
 
-main input {
+main input,
+main select,
+main textarea {
   font-size: 1.25rem;
   width: 100%;
   max-width: 50rem;
@@ -191,6 +193,11 @@ main input {
   border: 1px solid var(--text-color);
   color: var(--text-color);
   background-color: var(--background-color);
+  resize: none;
+}
+main input[type=checkbox]{
+  width: auto;
+  margin: 0 0.5rem 0 0 ;
 }
 
 main input:hover {

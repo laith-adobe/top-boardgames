@@ -138,6 +138,7 @@ async function createForm(formURL) {
   const rules = [];
   // eslint-disable-next-line prefer-destructuring
   form.dataset.action = pathname.split('.json')[0];
+  console.log(form.dataset.action)
   json.data.forEach((fd) => {
     fd.Type = fd.Type || 'text';
     const fieldWrapper = document.createElement('div');
